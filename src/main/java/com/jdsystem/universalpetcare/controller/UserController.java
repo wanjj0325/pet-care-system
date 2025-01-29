@@ -1,8 +1,9 @@
 package com.jdsystem.universalpetcare.controller;
 
+import com.jdsystem.universalpetcare.model.User;
 import com.jdsystem.universalpetcare.service.UserService;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
